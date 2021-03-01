@@ -4,13 +4,17 @@ import re
 # import auth code files 
 import authcode
 
-# create seperate python file to hold authenitcation 
-# authcode.py contains codes for authentication 
-#auth.set_access_token( ** Codes go here **)
+# create seperate python file to hold authenitcation (example authcode.py) 
 
-#api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
+# authcode.py contains codes for authentication :
 
-#id = *Twitter account code here*
+## auth.set_access_token( ** Codes go here **)
+
+## api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
+
+## id = *Twitter account code here*
+
+# end authcode.py 
 
 file = open("twitcount.txt", "r")
 prev_count_str = (file.read())
